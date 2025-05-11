@@ -36,8 +36,29 @@ local Tab = Window:CreateTab("main", 4483362458) -- Title, Image
 
 local Section = Tab:CreateSection("main")
 
+local Button = Tab:CreateButton({
+   Name = "Button Example",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
 local Tab = Window:CreateTab("menu", 4483362458) -- Title, Image
 
 local Section = Tab:CreateSection("menu")
 
+local Button = Tab:CreateButton({
+   Name = "Button Example",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
 local Tab = Window:CreateTab("Farm", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Button Example",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   end,
+})
