@@ -56,6 +56,8 @@ local Button = Tab:CreateButton({
 
 local Tab = Window:CreateTab("Farm", 4483362458) -- Title, Image
 
+local Section = Tab:CreateSection("farm")
+
 local Button = Tab:CreateButton({
    Name = "Button Example",
    Callback = function()
