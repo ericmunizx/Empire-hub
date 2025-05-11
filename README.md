@@ -23,7 +23,7 @@ local Window = Rayfield:CreateWindow({
 
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Get key",
+      Title = "Empire hub",
       Subtitle = "Key System",
       Note = "Get key in discord", -- Use this to tell the user how to get a key
       FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
@@ -64,5 +64,3 @@ local Button = Tab:CreateButton({
    -- The function that takes place when the button is pressed
    end,
 })
-
-local Tab = Window:CreateTab("Tab Example", "rewind")
