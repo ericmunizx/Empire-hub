@@ -11,7 +11,7 @@ local Window = Rayfield:CreateWindow({
 
    ConfigurationSaving = {
       Enabled = true,
-      FolderName = nil, -- Create a custom folder for your hub/game
+      FolderName = two, -- Create a custom folder for your hub/game
       FileName = "Empire hub"
    },
 
